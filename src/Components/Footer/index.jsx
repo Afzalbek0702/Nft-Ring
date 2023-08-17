@@ -10,7 +10,7 @@ import {
 	Title,
 	SecondText,
 } from "./style";
-const index = () => {
+const Index = () => {
 	return (
 		<Conteiner>
 			<ColumonFirst>
@@ -86,4 +86,4 @@ const index = () => {
 	);
 };
 
-export default index;
+export default Index;

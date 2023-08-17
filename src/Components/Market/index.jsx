@@ -3,45 +3,45 @@ import { data } from "../../utils/MarketCard";
 import Icon from "../../Assets/Icon/icon2.png";
 import {
 	Conteiner,
-	M_Title,
-	M_Dec,
+	MTitle,
+	MDec,
 	Wrapper,
-	M_Card,
+	MCard,
 	Img,
 	Title,
 	Price,
 	User,
-	User_Img,
-	User_name,
-	Price_icon,
+	UserImg,
+	UserName,
+	PriceIcon,
 } from "./style";
 
-const index = () => {
+const Index = () => {
 	return (
 		<Conteiner>
-			<M_Title>Exclusive NFT.Ring drops</M_Title>
-			<M_Dec>
+			<MTitle>Exclusive NFT.Ring drops</MTitle>
+			<MDec>
 				This NFT website is a website that features buying and selling, news and
 				blogs. Designed with a minimalist and informative concept
-			</M_Dec>
+			</MDec>
 			<Wrapper>
 				{data.map((v) => (
-					<M_Card key={v.id}>
+					<MCard key={v.id}>
 						<Img src={v.img} />
 						<Title>{v.title}</Title>
 						<Price>
-							<Price_icon src={Icon} />
+							<PriceIcon src={Icon} />
 							{v.price}
 						</Price>
 						<User>
-							<User_Img src={v.user.user_img} />
-							<User_name>{v.user.user_name}</User_name>
+							<UserImg src={v.user.user_img} />
+							<UserName>{v.user.user_name}</UserName>
 						</User>
-					</M_Card>
+					</MCard>
 				))}
 			</Wrapper>
 		</Conteiner>
 	);
 };
 
-export default index;
+export default Index;

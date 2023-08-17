@@ -1,11 +1,11 @@
 // import "./App.css";
-import Navbar from "./Components/Navbar";
-import Header from "./Components/Header";
-import Market from "./Components/Market";
+import Navbar from "./Components/Navbar/Index";
+import Header from "./Components/Header/Index";
+import Market from "./Components/Market/Index";
 import Category from "./Components/Category/Index";
-import Compony from "./Components/Compony";
-import Register from "./Components/Register";
-import Footer from "./Components/Footer";
+import Compony from "./Components/Compony/Index";
+import Register from "./Components/Register/Index";
+import Footer from "./Components/Footer/Index";
 
 function App() {
 	return (

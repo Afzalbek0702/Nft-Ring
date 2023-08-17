@@ -5,7 +5,7 @@ export const Conteiner = styled.div`
 	flex-direction: column;
 	align-items: center;
 `;
-export const M_Title = styled.h1`
+export const MTitle = styled.h1`
 	margin: 25px 0;
 	color: #232222;
 	text-align: center;
@@ -19,7 +19,7 @@ export const M_Title = styled.h1`
 		font-size: 28px;
 	}
 `;
-export const M_Dec = styled.p`
+export const MDec = styled.p`
 	max-width: 770px;
 	min-height: 72px;
 	margin: 5px;
@@ -43,7 +43,7 @@ export const Wrapper = styled.div`
 	align-items: center;
 	flex-wrap: wrap;
 `;
-export const M_Card = styled.div`
+export const MCard = styled.div`
 	margin: 18px;
 	max-width: 310px;
 	height: 420px;
@@ -95,7 +95,7 @@ export const Price = styled.h2`
 		font-size: 22px;
 	}
 `;
-export const Price_icon = styled.img`
+export const PriceIcon = styled.img`
 	margin-right: 16px;
 `;
 export const User = styled.div`
@@ -107,7 +107,7 @@ export const User = styled.div`
 		margin-top: 10px;
 	}
 `;
-export const User_Img = styled.img`
+export const UserImg = styled.img`
 	width: 42px;
 	height: 42px;
 	margin: 0 17px 0 29px;
@@ -118,7 +118,7 @@ export const User_Img = styled.img`
 		margin: 0 13px 0 29px;
 	}
 `;
-export const User_name = styled.h2`
+export const UserName = styled.h2`
 	color: #232222;
 	font-family: Montserrat;
 	font-size: 16px;

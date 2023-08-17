@@ -5,7 +5,7 @@ import Icon3 from "../../Assets/Icon/company-icon3.svg";
 import Icon4 from "../../Assets/Icon/company-icon4.svg";
 import Icon5 from "../../Assets/Icon/company-icon5.svg";
 import { Conteiner, CompanyIcon} from "./style";
-const index = () => {
+const Index = () => {
    return (
       <Conteiner>
 			<CompanyIcon src={Icon1} />
@@ -17,4 +17,4 @@ const index = () => {
 	);
 }
 
-export default index
+export default Index

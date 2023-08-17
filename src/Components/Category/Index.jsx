@@ -1,7 +1,7 @@
 import React from "react";
 import { Conteiner, Title, Dec, Wrapper,ImgCard,Img } from "./style";
 import data from '../../utils/ImgCard'
-const index = () => {
+const Index = () => {
    return (
 			<Conteiner>
 				<Title>Browse by category</Title>
@@ -22,4 +22,4 @@ const index = () => {
 		);
 };
 
-export default index;
+export default Index;
